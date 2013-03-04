@@ -20,9 +20,7 @@ def winners(board, join_k)
   0.upto(length - 1).each do |i|
     0.upto(length - 1).each do |j|
       player = board[i][j]
-      next if player == '.'
-      next if player == 'B' && winner['B']
-      next if player == 'R' && winner['R']
+      next if player == '.' || winner[player]
 
       # Horizontally to the right
       if length - j >= join_k
