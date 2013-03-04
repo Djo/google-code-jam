@@ -2,7 +2,7 @@
 # https://code.google.com/codejam/contest/619102/dashboard#s=p0
 #
 # Use ruby 1.9.3, pass the input file as the first argument:
-# ruby task.rb A-small-practice.in
+# ruby rope_intranet.rb practice.in
 
 def intersection_points(wires)
   wires.sort_by! { |a, _| a }

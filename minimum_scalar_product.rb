@@ -2,7 +2,7 @@
 # http://code.google.com/codejam/contest/dashboard?c=32016#s=p0
 #
 # Use ruby 1.9.3, pass the input file as the first argument:
-# ruby task.rb A-small-practice.in
+# ruby minimum_scalar_product.rb practice.in
 
 def scalar_product(vector1, vector2)
   vector1.sort!

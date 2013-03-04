@@ -2,7 +2,7 @@
 # https://code.google.com/codejam/contest/635101/dashboard#s=p0
 #
 # Use ruby 1.9.3, pass the input file as the first argument:
-# ruby task.rb A-small-practice.in
+# ruby file_fix_it.rb practice.in
 
 require 'set'
 

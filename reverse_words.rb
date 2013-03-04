@@ -2,7 +2,7 @@
 # https://code.google.com/codejam/contest/dashboard?c=351101#s=p1
 #
 # Use ruby 1.9.3, pass the input file as the first argument:
-# ruby task.rb B-small-practice.in
+# ruby reverse_words.rb practice.in
 
 file_in = ARGV[0]
 file_out = file_in.sub('.in', '.out')
